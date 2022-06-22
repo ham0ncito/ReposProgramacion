@@ -1,0 +1,17 @@
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\bin\Debug\net6.0-windows\1 segundo parcial.exe
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\bin\Debug\net6.0-windows\1 segundo parcial.deps.json
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\bin\Debug\net6.0-windows\1 segundo parcial.runtimeconfig.json
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\bin\Debug\net6.0-windows\1 segundo parcial.dll
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\bin\Debug\net6.0-windows\1 segundo parcial.pdb
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\obj\Debug\net6.0-windows\1 segundo parcial.vbproj.AssemblyReference.cache
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\obj\Debug\net6.0-windows\_1_segundo_parcial.Form1.resources
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\obj\Debug\net6.0-windows\1 segundo parcial.vbproj.GenerateResource.cache
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\obj\Debug\net6.0-windows\1 segundo parcial.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\obj\Debug\net6.0-windows\1 segundo parcial.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\obj\Debug\net6.0-windows\1 segundo parcial.AssemblyInfo.vb
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\obj\Debug\net6.0-windows\1 segundo parcial.vbproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\obj\Debug\net6.0-windows\1 segundo parcial.dll
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\obj\Debug\net6.0-windows\refint\1 segundo parcial.dll
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\obj\Debug\net6.0-windows\1 segundo parcial.pdb
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\obj\Debug\net6.0-windows\1 segundo parcial.genruntimeconfig.cache
+C:\Users\HP\source\repos\1 segundo parcial\1 segundo parcial\obj\Debug\net6.0-windows\ref\1 segundo parcial.dll

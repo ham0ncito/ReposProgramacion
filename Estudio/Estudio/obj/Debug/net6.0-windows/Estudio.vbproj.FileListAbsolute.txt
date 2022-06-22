@@ -1,0 +1,17 @@
+C:\Users\HP\source\repos\Estudio\Estudio\bin\Debug\net6.0-windows\Estudio.exe
+C:\Users\HP\source\repos\Estudio\Estudio\bin\Debug\net6.0-windows\Estudio.deps.json
+C:\Users\HP\source\repos\Estudio\Estudio\bin\Debug\net6.0-windows\Estudio.runtimeconfig.json
+C:\Users\HP\source\repos\Estudio\Estudio\bin\Debug\net6.0-windows\Estudio.dll
+C:\Users\HP\source\repos\Estudio\Estudio\bin\Debug\net6.0-windows\Estudio.pdb
+C:\Users\HP\source\repos\Estudio\Estudio\obj\Debug\net6.0-windows\Estudio.vbproj.AssemblyReference.cache
+C:\Users\HP\source\repos\Estudio\Estudio\obj\Debug\net6.0-windows\Estudio.Form1.resources
+C:\Users\HP\source\repos\Estudio\Estudio\obj\Debug\net6.0-windows\Estudio.vbproj.GenerateResource.cache
+C:\Users\HP\source\repos\Estudio\Estudio\obj\Debug\net6.0-windows\Estudio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\Estudio\Estudio\obj\Debug\net6.0-windows\Estudio.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\Estudio\Estudio\obj\Debug\net6.0-windows\Estudio.AssemblyInfo.vb
+C:\Users\HP\source\repos\Estudio\Estudio\obj\Debug\net6.0-windows\Estudio.vbproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\Estudio\Estudio\obj\Debug\net6.0-windows\Estudio.dll
+C:\Users\HP\source\repos\Estudio\Estudio\obj\Debug\net6.0-windows\refint\Estudio.dll
+C:\Users\HP\source\repos\Estudio\Estudio\obj\Debug\net6.0-windows\Estudio.pdb
+C:\Users\HP\source\repos\Estudio\Estudio\obj\Debug\net6.0-windows\Estudio.genruntimeconfig.cache
+C:\Users\HP\source\repos\Estudio\Estudio\obj\Debug\net6.0-windows\ref\Estudio.dll

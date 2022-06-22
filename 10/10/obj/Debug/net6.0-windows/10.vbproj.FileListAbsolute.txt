@@ -1,0 +1,17 @@
+C:\Users\HP\source\repos\10\10\bin\Debug\net6.0-windows\10.exe
+C:\Users\HP\source\repos\10\10\bin\Debug\net6.0-windows\10.deps.json
+C:\Users\HP\source\repos\10\10\bin\Debug\net6.0-windows\10.runtimeconfig.json
+C:\Users\HP\source\repos\10\10\bin\Debug\net6.0-windows\10.dll
+C:\Users\HP\source\repos\10\10\bin\Debug\net6.0-windows\10.pdb
+C:\Users\HP\source\repos\10\10\obj\Debug\net6.0-windows\10.vbproj.AssemblyReference.cache
+C:\Users\HP\source\repos\10\10\obj\Debug\net6.0-windows\_10.Form1.resources
+C:\Users\HP\source\repos\10\10\obj\Debug\net6.0-windows\10.vbproj.GenerateResource.cache
+C:\Users\HP\source\repos\10\10\obj\Debug\net6.0-windows\10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\10\10\obj\Debug\net6.0-windows\10.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\10\10\obj\Debug\net6.0-windows\10.AssemblyInfo.vb
+C:\Users\HP\source\repos\10\10\obj\Debug\net6.0-windows\10.vbproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\10\10\obj\Debug\net6.0-windows\10.dll
+C:\Users\HP\source\repos\10\10\obj\Debug\net6.0-windows\refint\10.dll
+C:\Users\HP\source\repos\10\10\obj\Debug\net6.0-windows\10.pdb
+C:\Users\HP\source\repos\10\10\obj\Debug\net6.0-windows\10.genruntimeconfig.cache
+C:\Users\HP\source\repos\10\10\obj\Debug\net6.0-windows\ref\10.dll
