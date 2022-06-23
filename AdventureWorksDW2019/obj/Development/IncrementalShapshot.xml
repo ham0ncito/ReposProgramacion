@@ -26,14 +26,14 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>8j4V7XdPxG0OpNgKFAcFa1duaeU=6/21/2022 9:37:24 PM6/21/2022 9:37:23 PM</TimeStamp>
+        <TimeStamp>8j4V7XdPxG0OpNgKFAcFa1duaeU=6/22/2022 6:25:32 PM6/21/2022 9:37:23 PM</TimeStamp>
         <ID>
           <String>Adventure Works DW2019</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>D0+MWtVY/PAFMvMdMlxtG0VWVJo=6/21/2022 9:42:35 PM6/21/2022 9:39:13 PM</TimeStamp>
+        <TimeStamp>D0+MWtVY/PAFMvMdMlxtG0VWVJo=6/22/2022 7:05:23 PM6/21/2022 9:39:13 PM</TimeStamp>
         <ID>
           <String>Dim Currency</String>
         </ID>
@@ -50,5 +50,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2022-06-22T03:42:36.23Z</LastDeployed>
+  <LastDeployed>2022-06-23T01:05:23.443333Z</LastDeployed>
 </DeploymentSnapshot>
