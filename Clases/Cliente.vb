@@ -22,7 +22,7 @@
     End Property
 
     Public Sub GenerarCodigo()
-        Me.Codigo = "c" & Me.Apellido.Substring(0, 3) & "2022"
+        Me.Codigo = "C" & Me.Apellido.Substring(0, 3) & "22"
     End Sub
 
 

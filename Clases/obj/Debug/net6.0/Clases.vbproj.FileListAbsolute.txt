@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\ReposProgramacion\Clases\bin\Debug\net6.0\Clases.deps.json
+C:\Users\HP\source\repos\ReposProgramacion\Clases\bin\Debug\net6.0\Clases.dll
+C:\Users\HP\source\repos\ReposProgramacion\Clases\bin\Debug\net6.0\Clases.pdb
+C:\Users\HP\source\repos\ReposProgramacion\Clases\obj\Debug\net6.0\Clases.vbproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ReposProgramacion\Clases\obj\Debug\net6.0\Clases.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\ReposProgramacion\Clases\obj\Debug\net6.0\Clases.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\ReposProgramacion\Clases\obj\Debug\net6.0\Clases.AssemblyInfo.vb
+C:\Users\HP\source\repos\ReposProgramacion\Clases\obj\Debug\net6.0\Clases.vbproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ReposProgramacion\Clases\obj\Debug\net6.0\Clases.dll
+C:\Users\HP\source\repos\ReposProgramacion\Clases\obj\Debug\net6.0\refint\Clases.dll
+C:\Users\HP\source\repos\ReposProgramacion\Clases\obj\Debug\net6.0\Clases.pdb
+C:\Users\HP\source\repos\ReposProgramacion\Clases\obj\Debug\net6.0\ref\Clases.dll

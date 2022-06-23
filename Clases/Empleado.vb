@@ -23,9 +23,9 @@
     End Property
 
     Public Sub calcularSueldo(sueldoBase As Double)
-        If (Me.Contrato = "c") Then
+        If (Me.Contrato = "C") Then
             Me.Sueldo = sueldoBase + 500
-        ElseIf Me.Contrato = "n" Then
+        ElseIf Me.Contrato = "N" Then
             Me.Sueldo = sueldoBase + 200
         Else
             Me.Sueldo = 0
