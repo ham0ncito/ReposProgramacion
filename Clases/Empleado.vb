@@ -1,24 +1,23 @@
 ﻿Public Class Empleado
     Inherits Persona
-
     Dim _contrato As String
     Dim _sueldo As Double
 
     Public Property Contrato As String
         Get
-            Return Contrato
+            Return _contrato
         End Get
         Set(value As String)
-            Contrato = value
+            _contrato = value
         End Set
     End Property
 
     Public Property Sueldo As Double
         Get
-            Return Sueldo
+            Return _sueldo
         End Get
         Set(value As Double)
-            Sueldo = value
+            _sueldo = value
         End Set
     End Property
 
