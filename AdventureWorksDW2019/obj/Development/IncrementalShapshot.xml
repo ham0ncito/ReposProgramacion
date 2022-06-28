@@ -26,16 +26,44 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>8j4V7XdPxG0OpNgKFAcFa1duaeU=6/22/2022 6:25:32 PM6/21/2022 9:37:23 PM</TimeStamp>
+        <TimeStamp>n4TuLnyJ3e4BJOhRKjTHuJXP1SQ=6/27/2022 6:23:45 PM6/21/2022 9:37:23 PM</TimeStamp>
         <ID>
           <String>Adventure Works DW2019</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>D0+MWtVY/PAFMvMdMlxtG0VWVJo=6/22/2022 7:05:23 PM6/21/2022 9:39:13 PM</TimeStamp>
+        <TimeStamp>D0+MWtVY/PAFMvMdMlxtG0VWVJo=6/27/2022 6:23:44 PM6/21/2022 9:39:13 PM</TimeStamp>
         <ID>
           <String>Dim Currency</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+FoCW1vCfLvEjUglaxfp5UCgRVI=6/27/2022 6:24:00 PM6/27/2022 6:19:44 PM</TimeStamp>
+        <ID>
+          <String>Dim Geography</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UaX+3QO2RhDS1vlPDdZhdxAzupY=6/27/2022 6:24:12 PM6/27/2022 6:24:11 PM</TimeStamp>
+        <ID>
+          <String>Dim Sales Territory</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gVr2+MP8+BZ+6YCNLIFU2AnoXds=6/27/2022 6:27:46 PM6/27/2022 6:27:46 PM</TimeStamp>
+        <ID>
+          <String>Dim Reseller</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>VWlaia9n14VN/iyRPprFVpl/2HU=6/27/2022 6:28:34 PM6/27/2022 6:27:46 PMpsP84Q1UnOjnYOpF0OhJyakvo/g=6/27/2022 6:27:46 PM6/27/2022 6:27:46 PM</TimeStamp>
+        <ID>
+          <String>Adventure Works DW2019</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -50,5 +78,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2022-06-23T01:05:23.443333Z</LastDeployed>
+  <LastDeployed>2022-06-28T00:28:34.596667Z</LastDeployed>
 </DeploymentSnapshot>

@@ -6,10 +6,34 @@
     <Name>AdventureWorksDW2019.database</Name>
     <FullPath>AdventureWorksDW2019.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>Adventure Works DW2019.cube</Name>
+      <FullPath>Adventure Works DW2019.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Adventure Works DW2019.partitions</Name>
+          <FullPath>Adventure Works DW2019.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>Dim Currency.dim</Name>
       <FullPath>Dim Currency.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Geography.dim</Name>
+      <FullPath>Dim Geography.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Sales Territory.dim</Name>
+      <FullPath>Dim Sales Territory.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Reseller.dim</Name>
+      <FullPath>Dim Reseller.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
