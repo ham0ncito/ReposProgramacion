@@ -30,39 +30,15 @@
         <ID>Dim Organization</ID>
       </Dimension>
       <Dimension>
-        <ID>Dim Product Subcategory</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Product</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Product Category</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Fact Internet Sales</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Currency</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Promotion</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Product Category 1</ID>
+        <ID>Dim Scenario 1</ID>
       </Dimension>
       <Dimension>
         <ID>Dim Date 1</ID>
       </Dimension>
-      <Dimension>
-        <ID>Dim Sales Territory</ID>
-      </Dimension>
-      <Dimension>
-        <ID>Dim Currency 1</ID>
-      </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>Adventure Works DW2019</ID>
+        <ID>Finanzas</ID>
         <MeasureGroups>
           <MeasureGroup>
             <ID>Fact Finance</ID>
@@ -81,18 +57,18 @@
             </Partitions>
           </MeasureGroup>
           <MeasureGroup>
-            <ID>Dim Account</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dim Account</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
             <ID>Dim Department Group</ID>
             <Partitions>
               <Partition>
                 <ID>Dim Department Group</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>Dim Account</ID>
+            <Partitions>
+              <Partition>
+                <ID>Dim Account</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>
@@ -109,83 +85,6 @@
             <Partitions>
               <Partition>
                 <ID>Dim Organization</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-        </MeasureGroups>
-      </Cube>
-      <Cube>
-        <ID>Productos</ID>
-        <MeasureGroups>
-          <MeasureGroup>
-            <ID>Dim Product Subcategory</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dim Product Subcategory</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dim Product Category</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dim Product Category</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dim Product</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dim Product</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Fact Internet Sales</ID>
-            <Partitions>
-              <Partition>
-                <ID>Fact Internet Sales</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dim Date</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dim Date</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dim Customer</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dim Customer</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dim Geography</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dim Geography</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dim Sales Territory</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dim Sales Territory</ID>
-              </Partition>
-            </Partitions>
-          </MeasureGroup>
-          <MeasureGroup>
-            <ID>Dim Currency</ID>
-            <Partitions>
-              <Partition>
-                <ID>Dim Currency</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

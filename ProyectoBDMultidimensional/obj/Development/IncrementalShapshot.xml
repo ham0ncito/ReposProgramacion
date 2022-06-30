@@ -26,7 +26,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>4O9qX88CeRGjIh1ldfxdPiWFDSE=6/28/2022 9:45:15 PM6/28/2022 9:29:25 PM</TimeStamp>
+        <TimeStamp>rHVQE7KrKFSu+go/Ym9XbLu8JgY=6/28/2022 10:32:19 PM6/28/2022 9:29:25 PM</TimeStamp>
         <ID>
           <String>Adventure Works DW2019</String>
         </ID>
@@ -54,7 +54,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>30Sfhq9fTU55uAA/COPd+mk+BSY=6/28/2022 10:17:00 PM6/28/2022 9:46:08 PM</TimeStamp>
+        <TimeStamp>30Sfhq9fTU55uAA/COPd+mk+BSY=6/28/2022 10:32:06 PM6/28/2022 9:46:08 PM</TimeStamp>
         <ID>
           <String>Dim Account</String>
         </ID>
@@ -74,10 +74,24 @@
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>R4oiwTBWGqRV5SQ1a2nC/8ia01A=6/28/2022 10:19:20 PM6/28/2022 9:46:49 PMjLBLOzTXRj3iFevhUtuIZ3uNxuA=6/28/2022 9:46:49 PM6/28/2022 9:46:49 PM</TimeStamp>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>b4++nLxQJY7OX6DZUTo3B36GdhQ=6/29/2022 6:44:33 PM6/29/2022 6:44:33 PM</TimeStamp>
         <ID>
-          <String>Adventure Works DW2019</String>
+          <String>Dim Scenario 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>JQXivjCAb+BCYqICzKVYX0tZloE=6/29/2022 6:44:33 PM6/29/2022 6:44:33 PM</TimeStamp>
+        <ID>
+          <String>Dim Date 1</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>4yLXehyaRLHTVU8zJRPTiwdXqIU=6/29/2022 6:44:56 PM6/29/2022 6:44:32 PMCXbUDKrWN77PX3MmDKatILniWK0=6/29/2022 6:44:33 PM6/29/2022 6:44:33 PM</TimeStamp>
+        <ID>
+          <String>Finanzas</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
@@ -92,5 +106,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2022-06-29T04:19:21.606667Z</LastDeployed>
+  <LastDeployed>2022-06-30T00:44:57.77Z</LastDeployed>
 </DeploymentSnapshot>

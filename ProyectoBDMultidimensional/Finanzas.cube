@@ -1,0 +1,853 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="89f4c107-7f96-4296-bfaa-cfda5f3a328b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Finanzas</ID>
+  <Name>Finanzas</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="01c4211f-0f95-4435-99d3-10f73fd2d20e">
+      <ID>Fact Finance</ID>
+      <Name>Fact Finance</Name>
+      <DimensionID>Fact Finance</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9c50d3a0-175f-46bb-861c-d7a1ded7efd3">
+          <AttributeID>Finance Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7baedc08-56fc-466f-bd6d-f6d60b80a5d3">
+          <AttributeID>Scenario Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="02984059-1743-4c51-8e04-bd97b3dae575">
+          <AttributeID>Department Group Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7bb4ab0f-0708-44a2-9703-c1e6d4fd153d">
+          <AttributeID>Account Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0ad3ed23-576b-4870-927f-6c0fe8cb069a">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="954ba3ee-2504-4559-9b5a-06afb0b24d2b">
+          <AttributeID>Organization Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="4f44cb2f-99f4-49f8-ad64-833fc58ada13">
+      <ID>Organization</ID>
+      <Name>Organization</Name>
+      <DimensionID>Fact Finance</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="38b3310f-b93f-43b1-ab1d-972fcda6ce86">
+          <AttributeID>Finance Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3a4bfa33-75c1-4913-a483-71a65f2e7410">
+          <AttributeID>Scenario Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5be29b2d-2da2-4272-8b13-7508dc47f8aa">
+          <AttributeID>Department Group Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bae695e2-ff52-46fc-9740-64eb9b42cf6b">
+          <AttributeID>Account Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5b169327-fb6a-42ec-a392-88007230af27">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="62594133-2ff9-4f49-996a-0b0c51c10949">
+          <AttributeID>Organization Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b3f8b323-9629-414d-81fd-9e61b7c2552a">
+      <ID>Date</ID>
+      <Name>Date</Name>
+      <DimensionID>Fact Finance</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6fcd69ee-40d1-4222-bb6f-45cbe42d7067">
+          <AttributeID>Finance Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="87faa0a4-afb7-422d-a717-b762d6f611de">
+          <AttributeID>Scenario Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="86555a1e-9335-43b5-ae4f-3b9370fbd693">
+          <AttributeID>Department Group Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8bea41c6-54e1-4d02-a4da-35e2f58adf9b">
+          <AttributeID>Account Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e7520c36-e055-4456-8990-757d55a2d3e3">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0e211aa6-eb90-4cf1-b7bb-0bc947290cae">
+          <AttributeID>Organization Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c03b9d23-fa78-477c-a15e-8c993ccab6c7">
+      <ID>Account</ID>
+      <Name>Account</Name>
+      <DimensionID>Fact Finance</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d963daa0-761d-4baa-b156-d8e9cd667496">
+          <AttributeID>Finance Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="068b6741-003b-44b2-8826-d3af935e8da9">
+          <AttributeID>Scenario Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b97770bf-ad07-4265-989a-e1661a9aaa16">
+          <AttributeID>Department Group Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fb39a8ba-9599-4768-9d21-83413095182b">
+          <AttributeID>Account Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4251a9ac-8590-4292-b9d3-5351145b4b0e">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9b490a1e-6c74-452e-a6dd-f2b97e9b4dc4">
+          <AttributeID>Organization Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ea915dd3-9bba-4ce9-a76c-87e27e83d4be">
+      <ID>Department Group</ID>
+      <Name>Department Group</Name>
+      <DimensionID>Fact Finance</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="288f8200-86d2-4e09-91a5-d86b15e35ba3">
+          <AttributeID>Finance Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="27c5c1e1-3ae3-47cc-bf2b-b7a3f36345b3">
+          <AttributeID>Scenario Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bd53b773-fbab-4ac8-aefc-24a9084cfafb">
+          <AttributeID>Department Group Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9380ad69-cfcd-408d-8f49-aa421d262223">
+          <AttributeID>Account Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ecc7108f-7091-4a46-8807-805928c3f3f9">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e1d5ccee-eed2-4b14-a331-ff07979baced">
+          <AttributeID>Organization Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="87415103-dff6-485f-8bba-d142ab2dc5fa">
+      <ID>Scenario</ID>
+      <Name>Scenario</Name>
+      <DimensionID>Fact Finance</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="57b0e220-1382-47c5-895a-18a097245631">
+          <AttributeID>Finance Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="17ddce36-833d-4ad3-b3fb-87a1b52c8d69">
+          <AttributeID>Scenario Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ddd62c3d-b044-43e1-bebc-f53ac5d6a6d9">
+          <AttributeID>Department Group Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e8736b9b-cd35-42c0-880b-b13fd23e629c">
+          <AttributeID>Account Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="26fa530e-e0b3-4783-9c66-b06683afd94e">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="425a634f-6032-4d00-ae2e-4c0181225e5f">
+          <AttributeID>Organization Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="c8d30b11-46d6-4388-b141-7f8e7fd3d3a4">
+      <ID>Dim Scenario</ID>
+      <Name>Dim Scenario</Name>
+      <DimensionID>Dim Scenario</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a35b3e0a-26fb-45d7-9d01-b5ed88aa68da">
+          <AttributeID>Scenario Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="0638010e-5940-4d7a-91b9-008047dce1a9">
+      <ID>Dim Scenario 1</ID>
+      <Name>Dim Scenario 1</Name>
+      <DimensionID>Dim Scenario 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ef0738b1-32ed-42d5-beb8-b8cb70138b2a">
+          <AttributeID>Scenario Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b8e3b9e8-29a3-4e1f-ba1d-d3f4430086f8">
+      <ID>Dim Department Group</ID>
+      <Name>Dim Department Group</Name>
+      <DimensionID>Dim Department Group</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c72b95d3-bd3d-47e0-946f-5357e257580e">
+          <AttributeID>Department Group Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="4ee0a639-722f-4d0c-957b-33caa50d1171">
+          <AttributeID>Parent Department Group Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b01390ba-923c-4b56-a863-e2dcbeb0380d">
+      <ID>Dim Account</ID>
+      <Name>Dim Account</Name>
+      <DimensionID>Dim Account</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f79679b2-fe8c-416a-9e9e-c8378db7441e">
+          <AttributeID>Account Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b4775621-9c54-4658-bf25-56cb209c8d7a">
+          <AttributeID>Parent Account Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="4fe07bf3-94ca-4315-bcb7-1b47264ae812">
+      <ID>Dim Date</ID>
+      <Name>Dim Date</Name>
+      <DimensionID>Dim Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9d0942e7-8b79-40be-94c8-8cefcce8587a">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7af2d4f4-10f5-4ff9-837e-ae115d3adf9c">
+      <ID>Dim Date 1</ID>
+      <Name>Dim Date 1</Name>
+      <DimensionID>Dim Date 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="cf990d4d-3949-40ee-a72f-eb2853e52140">
+          <AttributeID>Date Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9fcc1e7b-884d-4c5d-98d1-a9661357d781">
+      <ID>Dim Organization</ID>
+      <Name>Dim Organization</Name>
+      <DimensionID>Dim Organization</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="62ed964a-a93e-4028-89c1-eb5b4ada8d91">
+          <AttributeID>Organization Key</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="61bc9f21-b846-4a6b-9040-38cdeaa437ac">
+          <AttributeID>Parent Organization Key</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="d30413e2-f418-4fec-94f7-2709c7d44cf1">
+      <ID>Fact Finance</ID>
+      <Name>Fact Finance</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="831e3f68-5a80-4934-ade8-278e44df8bd5">
+          <ID>Finance Key</ID>
+          <Name>Finance Key</Name>
+          <Source dwd:design-time-name="f2cc4885-6be0-4ab7-a63a-2b145cb349cf">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="792d1eaa-baab-45dd-a93f-acfcac9f124b">
+              <TableID>dbo_FactFinance</TableID>
+              <ColumnID>FinanceKey</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ac293fc0-9ca3-447e-b096-f17966e98605">
+          <ID>Amount</ID>
+          <Name>Amount</Name>
+          <Source dwd:design-time-name="b7f56b25-4f1e-4232-9d5a-df3dd32a127d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5a302e9c-cee2-4400-a16f-88fb679a29ed">
+              <TableID>dbo_FactFinance</TableID>
+              <ColumnID>Amount</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f16a887f-ddca-4c89-b912-07f91eedeeca">
+          <ID>Recuento Fact Finance</ID>
+          <Name>Recuento Fact Finance</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="45cbae69-21ba-4856-840d-e8b2c59ec8a7">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="fd9a5ffc-7af1-4198-b21c-d14acd506da1">
+              <TableID>dbo_FactFinance</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="1fd7d553-8d00-446a-b153-d98c8a734095">
+          <CubeDimensionID>Fact Finance</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1ef6c1ea-54c6-43aa-9f70-4e30e66867e0">
+              <AttributeID>Finance Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b0e0c8fd-811c-4beb-84cf-b7f4c2b71e38">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1d8dc432-09da-4cec-9ecc-118f527c034b">
+                    <TableID>dbo_FactFinance</TableID>
+                    <ColumnID>FinanceKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d85c0ca3-e00d-4655-849a-671f4e39d9b3">
+          <CubeDimensionID>Organization</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f3a160a7-8d2e-4e42-bf39-100679c27507">
+              <AttributeID>Organization Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="aa3a5f1f-4d1e-4a4e-afbd-5c12bf2cdb66">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4c10977b-4647-4b21-90d2-a39e495215fd">
+                    <TableID>dbo_FactFinance</TableID>
+                    <ColumnID>OrganizationKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="354f4dd5-5106-480f-8ca1-185d289db71f">
+          <CubeDimensionID>Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e4d1e058-619e-4abc-87f8-31bbc1844179">
+              <AttributeID>Date Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="88203f2a-d875-4111-ad7b-5d9e31e3cd27">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0af0d3d6-41ab-4e80-9dab-45a72cb1f6a0">
+                    <TableID>dbo_FactFinance</TableID>
+                    <ColumnID>DateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="15fd1a24-885c-4e7a-a47d-dc0edc3402be">
+          <CubeDimensionID>Account</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="69a50457-ba58-4edd-8c0f-aa43ae1d522f">
+              <AttributeID>Account Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3b90810b-28d9-4bf5-84d8-b10222187093">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3cff6661-87e7-4993-8236-96b4a8fa6f8c">
+                    <TableID>dbo_FactFinance</TableID>
+                    <ColumnID>AccountKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b46d09a6-7bc2-4e2d-a223-c4ee1727a91e">
+          <CubeDimensionID>Department Group</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2d4d024d-7699-4249-ae69-752fa15664c3">
+              <AttributeID>Department Group Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e97de02f-9182-42e1-becc-3200777caf70">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c3e12788-f1c4-420e-a717-d68db11982ef">
+                    <TableID>dbo_FactFinance</TableID>
+                    <ColumnID>DepartmentGroupKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="94f42297-d310-4766-a4d4-f3c4fbd6219b">
+          <CubeDimensionID>Scenario</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6c8d65d3-7f17-4816-be92-9c3e980342e2">
+              <AttributeID>Scenario Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a2f9e660-d221-4531-8bb0-a92f24be13a9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="03bcaf67-4d34-4dda-8dbd-6a0fcb7da29b">
+                    <TableID>dbo_FactFinance</TableID>
+                    <ColumnID>ScenarioKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="d1f7138a-5490-4fab-b547-c81ac661bfe0">
+      <ID>Dim Scenario</ID>
+      <Name>Dim Scenario</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="257fae4d-e864-41a8-8a89-08ee8bde577a">
+          <ID>Recuento Dim Scenario</ID>
+          <Name>Recuento Dim Scenario</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="94c7e1bb-906d-4759-8fe5-cc88d7805916">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="31207c19-0134-427e-bff4-e81ba1077a11">
+              <TableID>dbo_DimScenario</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="438d9cd5-e71a-4ae4-ad93-b8f6254978e7">
+          <CubeDimensionID>Dim Scenario</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b90422d6-6768-463e-b453-15e1ed36d52f">
+              <AttributeID>Scenario Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="77f76948-70e9-4385-b46f-d70344183c31">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="60751adb-9adc-41a9-8785-5070cd7d3f9f">
+                    <TableID>dbo_DimScenario</TableID>
+                    <ColumnID>ScenarioKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="eaa6a153-3ab1-4d8b-90b4-a5a05f25ab7e">
+          <CubeDimensionID>Dim Scenario 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="db409f02-4afa-477b-b205-7bbc4efdd3cf">
+              <AttributeID>Scenario Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1d4be350-ae44-4210-bc6a-166aeef0af96">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7bb34d6a-ee4c-4dc8-ac40-41ebfde32904">
+                    <TableID>dbo_DimScenario</TableID>
+                    <ColumnID>ScenarioKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="f96b99d1-02b6-4454-b2a0-38c07fb9d101">
+      <ID>Dim Department Group</ID>
+      <Name>Dim Department Group</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="af5cec93-eac2-43d5-882e-116350a156ab">
+          <ID>Recuento Dim Department Group</ID>
+          <Name>Recuento Dim Department Group</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="6da68568-73b6-4803-9c5a-d270234bb4ae">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="e7e7788d-bd6b-4701-ab42-d4ecd20b9bb6">
+              <TableID>dbo_DimDepartmentGroup</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="e9b94559-a6c7-4e1c-8938-a8716703a1f8">
+          <CubeDimensionID>Dim Department Group</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8b532edb-8546-473f-9567-653575890364">
+              <AttributeID>Department Group Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f85593bb-ed0e-4213-98c0-853b066bd16d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="87c10d55-aeb1-4394-a159-576f56183f00">
+                    <TableID>dbo_DimDepartmentGroup</TableID>
+                    <ColumnID>DepartmentGroupKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="03c3050a-2985-4307-a784-038f26ec09eb">
+      <ID>Dim Account</ID>
+      <Name>Dim Account</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="aa51813c-c4cb-4e87-8982-b9d5d20220db">
+          <ID>Account Code Alternate Key</ID>
+          <Name>Account Code Alternate Key</Name>
+          <Source dwd:design-time-name="29df672f-8399-4ab9-b4ec-f63389b01917">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b4210d02-831c-4483-82f9-0db5110e5955">
+              <TableID>dbo_DimAccount</TableID>
+              <ColumnID>AccountCodeAlternateKey</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="01ead477-f9b2-492e-a22e-3f276737fafc">
+          <ID>Parent Account Code Alternate Key</ID>
+          <Name>Parent Account Code Alternate Key</Name>
+          <Source dwd:design-time-name="80f55d4d-c00a-43b4-8a9f-fcc5e91a4814">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d3506230-7c19-46f1-9646-4aa57ebf94be">
+              <TableID>dbo_DimAccount</TableID>
+              <ColumnID>ParentAccountCodeAlternateKey</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b7df3f4c-79d1-4cc2-9440-f187b8c5e134">
+          <ID>Recuento Dim Account</ID>
+          <Name>Recuento Dim Account</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="7cbfb98d-73be-4464-9078-703649ab0ed6">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="74cf2b77-a19d-4c71-abaa-b00b7d10cfc1">
+              <TableID>dbo_DimAccount</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="8216f151-e717-4204-b30b-2f3449cfec49">
+          <CubeDimensionID>Dim Account</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="44a5b8cd-87b5-4e8c-af04-8ab2b580aa7b">
+              <AttributeID>Account Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="32064099-6a83-4922-ae62-358eb10a98cf">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3f85365f-d079-41b2-94b8-60937e34cf53">
+                    <TableID>dbo_DimAccount</TableID>
+                    <ColumnID>AccountKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="cdd642f7-9af6-4475-b79a-8017df0fcaac">
+      <ID>Dim Date</ID>
+      <Name>Dim Date</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="11a80070-022a-4d98-b5bb-f9e84f68dc54">
+          <ID>Day Number Of Week</ID>
+          <Name>Day Number Of Week</Name>
+          <Source dwd:design-time-name="a029bed1-5a53-4ced-972e-59064057bdd9">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="4be5387e-00c7-467b-8705-7549a14ece01">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>DayNumberOfWeek</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="51b9fbba-a19a-4b2d-b014-16f00149e816">
+          <ID>Day Number Of Month</ID>
+          <Name>Day Number Of Month</Name>
+          <Source dwd:design-time-name="e44d8b99-904f-4f8b-b156-78aefe9df449">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6df3c5cb-1ccf-42d2-abb3-3d01743e76d5">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>DayNumberOfMonth</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ca3ebe5c-7777-4ae9-820a-01e04da207cb">
+          <ID>Day Number Of Year</ID>
+          <Name>Day Number Of Year</Name>
+          <Source dwd:design-time-name="41cc32cc-3dd7-4c40-a7a9-857b5a8ce416">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0eff0437-6ba8-4ea8-b7e9-6aa47d22f819">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>DayNumberOfYear</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="223956ea-cda4-47d3-8d76-86a936dcd03d">
+          <ID>Week Number Of Year</ID>
+          <Name>Week Number Of Year</Name>
+          <Source dwd:design-time-name="8262ec24-fe0a-40c6-9d02-96b3932be115">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0498a58e-8ff5-428b-b14d-4a7abbf4df21">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>WeekNumberOfYear</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="56993061-df46-4a03-8caa-a623e5a56666">
+          <ID>Month Number Of Year</ID>
+          <Name>Month Number Of Year</Name>
+          <Source dwd:design-time-name="a304fdfe-6669-4cd2-a753-5acad4c5abce">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5cfa1887-a535-4817-94a7-f8995e60ad6f">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>MonthNumberOfYear</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b0371d36-9d71-4853-b18a-15bad575590b">
+          <ID>Calendar Quarter</ID>
+          <Name>Calendar Quarter</Name>
+          <Source dwd:design-time-name="f31dae2e-e8a1-4976-a89a-725f4eb80049">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="eaa7bd0c-b9e8-46af-ab6b-9868cad9b7a7">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>CalendarQuarter</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="60cf6cf8-3ccd-4985-ab17-87957fa46893">
+          <ID>Calendar Year</ID>
+          <Name>Calendar Year</Name>
+          <Source dwd:design-time-name="b6736fbc-486f-4a6c-9678-f8093b3eefa9">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="40113032-12c4-4b3c-a1e0-1d92dcb15d95">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>CalendarYear</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="f9110914-6033-40f7-81db-06dfb1a8c003">
+          <ID>Calendar Semester</ID>
+          <Name>Calendar Semester</Name>
+          <Source dwd:design-time-name="ba1007bc-abad-4982-848f-ff0ef05c8a99">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="76d40f7f-0396-464a-b9cd-1613e1d130cb">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>CalendarSemester</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0e976f41-d962-4c75-8061-394b7c14e851">
+          <ID>Fiscal Quarter</ID>
+          <Name>Fiscal Quarter</Name>
+          <Source dwd:design-time-name="3635f6a8-4ecc-4308-b8c1-55f594ad2ad0">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="44db4827-6cfd-4538-be0a-e00cb538e982">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>FiscalQuarter</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="80d9f189-d41f-41c2-bfc1-1a653dd1ba90">
+          <ID>Fiscal Year</ID>
+          <Name>Fiscal Year</Name>
+          <Source dwd:design-time-name="aca0631e-8786-4439-a4ff-1d00ea28696c">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="73bf1314-7a25-4385-98b9-6a445acdb6da">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>FiscalYear</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8a456cc4-22ab-4395-b184-b12e93e9aa57">
+          <ID>Fiscal Semester</ID>
+          <Name>Fiscal Semester</Name>
+          <Source dwd:design-time-name="fd419c94-5900-4df2-8ba3-b3db4a07bc20">
+            <DataType>UnsignedInt</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="24c93292-2c0b-4967-a0fe-f76d63abcb13">
+              <TableID>dbo_DimDate</TableID>
+              <ColumnID>FiscalSemester</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="de06125f-7e1c-4997-8221-757c5d45e0e3">
+          <ID>Recuento Dim Date</ID>
+          <Name>Recuento Dim Date</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="ece3b885-a67e-429e-b0ca-3bf1dc3715dd">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="7a46d7f0-9521-4750-9714-901232055092">
+              <TableID>dbo_DimDate</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="1c4fd612-b8d8-4d5e-9ce1-ac655f6aff0d">
+          <CubeDimensionID>Dim Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3f67c358-299e-45f7-89f1-98db1badc065">
+              <AttributeID>Date Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="64d03522-7ee8-47cd-8c9b-116ea0603048">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7dd97f1c-9ea9-4eaf-9e1c-d0fd66f2367a">
+                    <TableID>dbo_DimDate</TableID>
+                    <ColumnID>DateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="73c21227-ac8c-4c8f-add2-79cd9406d5cf">
+          <CubeDimensionID>Dim Date 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="94d77a64-5f05-4330-944c-dd6b0c9151e8">
+              <AttributeID>Date Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bdd2d223-9ae4-458f-8d81-f1bf649dd28e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a853021b-d9e7-4e90-bb07-7851a1496459">
+                    <TableID>dbo_DimDate</TableID>
+                    <ColumnID>DateKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="ca72940d-60f9-4dad-878a-ffb777436b3d">
+      <ID>Dim Organization</ID>
+      <Name>Dim Organization</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="65a2450b-9f60-4f66-998a-b71785684900">
+          <ID>Currency Key</ID>
+          <Name>Currency Key</Name>
+          <Source dwd:design-time-name="3f185332-8a67-45ec-b64b-43fa5b904b73">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8811466e-21a9-4386-98a6-369a485368f4">
+              <TableID>dbo_DimOrganization</TableID>
+              <ColumnID>CurrencyKey</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0de94a92-5959-4721-b651-d4265dd5d342">
+          <ID>Recuento Dim Organization</ID>
+          <Name>Recuento Dim Organization</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="ece2034c-5b3e-4dfa-ba3e-561df97b4bf9">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="2e1cb7c0-2095-498d-a9d3-c8fb64e476d2">
+              <TableID>dbo_DimOrganization</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="9f9f3112-90a4-4895-b671-fe398e26386e">
+          <CubeDimensionID>Dim Organization</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ae9821bc-b219-4449-965d-57091440162b">
+              <AttributeID>Organization Key</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e0518e5c-e133-4cc6-941d-8137faed4185">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6ecc5055-7fcf-4c01-a01e-45e6e31a3548">
+                    <TableID>dbo_DimOrganization</TableID>
+                    <ColumnID>OrganizationKey</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="be83c60c-6cc9-4073-be4c-992d13832d19">
+    <DataSourceViewID>Adventure Works DW2019</DataSourceViewID>
+  </Source>
+</Cube>

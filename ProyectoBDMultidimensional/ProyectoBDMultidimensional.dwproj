@@ -8,12 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Cubo Finanzas.cube</Name>
-      <FullPath>Cubo Finanzas.cube</FullPath>
+      <Name>Finanzas.cube</Name>
+      <FullPath>Finanzas.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Cubo Finanzas.partitions</Name>
-          <FullPath>Cubo Finanzas.partitions</FullPath>
+          <Name>Finanzas.partitions</Name>
+          <FullPath>Finanzas.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -44,8 +44,12 @@
       <FullPath>Dim Organization.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Dim Currency.dim</Name>
-      <FullPath>Dim Currency.dim</FullPath>
+      <Name>Dim Scenario 1.dim</Name>
+      <FullPath>Dim Scenario 1.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dim Date 1.dim</Name>
+      <FullPath>Dim Date 1.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>
