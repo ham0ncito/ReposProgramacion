@@ -122,4 +122,8 @@ Public Class frmPrincipal
         frn.MdiParent = Me
         frn.Show()
     End Sub
+
+    Private Sub MenuStrip_ItemClicked(sender As Object, e As ToolStripItemClickedEventArgs) Handles MenuStrip.ItemClicked
+
+    End Sub
 End Class

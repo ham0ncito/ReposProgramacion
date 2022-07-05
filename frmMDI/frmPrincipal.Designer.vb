@@ -166,7 +166,7 @@ Partial Class frmPrincipal
         'ComprasToolStripMenuItem
         '
         Me.ComprasToolStripMenuItem.Name = "ComprasToolStripMenuItem"
-        Me.ComprasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ComprasToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
         Me.ComprasToolStripMenuItem.Text = "Compras"
         '
         'SalToolStripMenuItem
@@ -179,7 +179,7 @@ Partial Class frmPrincipal
         'VentasToolStripMenuItem
         '
         Me.VentasToolStripMenuItem.Name = "VentasToolStripMenuItem"
-        Me.VentasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.VentasToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
         Me.VentasToolStripMenuItem.Text = "Ventas"
         '
         'ClientesToolStripMenuItem
