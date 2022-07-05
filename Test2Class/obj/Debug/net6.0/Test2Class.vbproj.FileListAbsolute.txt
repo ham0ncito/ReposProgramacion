@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\ReposProgramacion\Test2Class\bin\Debug\net6.0\Test2Class.deps.json
+C:\Users\HP\source\repos\ReposProgramacion\Test2Class\bin\Debug\net6.0\Test2Class.dll
+C:\Users\HP\source\repos\ReposProgramacion\Test2Class\bin\Debug\net6.0\Test2Class.pdb
+C:\Users\HP\source\repos\ReposProgramacion\Test2Class\obj\Debug\net6.0\Test2Class.vbproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ReposProgramacion\Test2Class\obj\Debug\net6.0\Test2Class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\ReposProgramacion\Test2Class\obj\Debug\net6.0\Test2Class.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\ReposProgramacion\Test2Class\obj\Debug\net6.0\Test2Class.AssemblyInfo.vb
+C:\Users\HP\source\repos\ReposProgramacion\Test2Class\obj\Debug\net6.0\Test2Class.vbproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ReposProgramacion\Test2Class\obj\Debug\net6.0\Test2Class.dll
+C:\Users\HP\source\repos\ReposProgramacion\Test2Class\obj\Debug\net6.0\refint\Test2Class.dll
+C:\Users\HP\source\repos\ReposProgramacion\Test2Class\obj\Debug\net6.0\Test2Class.pdb
+C:\Users\HP\source\repos\ReposProgramacion\Test2Class\obj\Debug\net6.0\ref\Test2Class.dll
