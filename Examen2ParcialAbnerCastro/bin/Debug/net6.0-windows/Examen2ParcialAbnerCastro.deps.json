@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Examen2ParcialAbnerCastro/1.0.0": {
+        "dependencies": {
+          "Examencito": "1.0.0"
+        },
+        "runtime": {
+          "Examen2ParcialAbnerCastro.dll": {}
+        }
+      },
+      "Examencito/1.0.0": {
+        "runtime": {
+          "Examencito.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Examen2ParcialAbnerCastro/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Examencito/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

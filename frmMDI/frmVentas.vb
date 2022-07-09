@@ -17,6 +17,6 @@
     End Function
 
     Public Sub setcliente(cliente As String)
-        //Me.Combobo.Text = cliente
+        ''Me.Combobo.Text = cliente
     End Sub
 End Class

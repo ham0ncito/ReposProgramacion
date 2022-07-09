@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\Segundo Parcial\\Segundo Parcial\\Segundo Parcial.vbproj",
+      "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ReposProgramacion\\Segundo Parcial\\Segundo Parcial\\Segundo Parcial.vbproj",
       "projectName": "Segundo Parcial",
-      "projectPath": "C:\\Users\\HP\\source\\repos\\Segundo Parcial\\Segundo Parcial\\Segundo Parcial.vbproj",
+      "projectPath": "C:\\Users\\HP\\source\\repos\\ReposProgramacion\\Segundo Parcial\\Segundo Parcial\\Segundo Parcial.vbproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\source\\repos\\Segundo Parcial\\Segundo Parcial\\obj\\",
+      "outputPath": "C:\\Users\\HP\\source\\repos\\ReposProgramacion\\Segundo Parcial\\Segundo Parcial\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\source\\repos\\2 segundo parcial\\2 segundo parcial\\2 segundo parcial.vbproj": {}
+    "C:\\Users\\HP\\source\\repos\\ReposProgramacion\\2 segundo parcial\\2 segundo parcial\\2 segundo parcial.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\source\\repos\\2 segundo parcial\\2 segundo parcial\\2 segundo parcial.vbproj": {
+    "C:\\Users\\HP\\source\\repos\\ReposProgramacion\\2 segundo parcial\\2 segundo parcial\\2 segundo parcial.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\2 segundo parcial\\2 segundo parcial\\2 segundo parcial.vbproj",
+        "projectUniqueName": "C:\\Users\\HP\\source\\repos\\ReposProgramacion\\2 segundo parcial\\2 segundo parcial\\2 segundo parcial.vbproj",
         "projectName": "2 segundo parcial",
-        "projectPath": "C:\\Users\\HP\\source\\repos\\2 segundo parcial\\2 segundo parcial\\2 segundo parcial.vbproj",
+        "projectPath": "C:\\Users\\HP\\source\\repos\\ReposProgramacion\\2 segundo parcial\\2 segundo parcial\\2 segundo parcial.vbproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\source\\repos\\2 segundo parcial\\2 segundo parcial\\obj\\",
+        "outputPath": "C:\\Users\\HP\\source\\repos\\ReposProgramacion\\2 segundo parcial\\2 segundo parcial\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

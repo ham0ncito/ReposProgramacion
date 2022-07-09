@@ -1,0 +1,12 @@
+C:\Users\HP\source\repos\ReposProgramacion\Examencito\bin\Debug\net6.0\Examencito.deps.json
+C:\Users\HP\source\repos\ReposProgramacion\Examencito\bin\Debug\net6.0\Examencito.dll
+C:\Users\HP\source\repos\ReposProgramacion\Examencito\bin\Debug\net6.0\Examencito.pdb
+C:\Users\HP\source\repos\ReposProgramacion\Examencito\obj\Debug\net6.0\Examencito.vbproj.AssemblyReference.cache
+C:\Users\HP\source\repos\ReposProgramacion\Examencito\obj\Debug\net6.0\Examencito.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\source\repos\ReposProgramacion\Examencito\obj\Debug\net6.0\Examencito.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\ReposProgramacion\Examencito\obj\Debug\net6.0\Examencito.AssemblyInfo.vb
+C:\Users\HP\source\repos\ReposProgramacion\Examencito\obj\Debug\net6.0\Examencito.vbproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\ReposProgramacion\Examencito\obj\Debug\net6.0\Examencito.dll
+C:\Users\HP\source\repos\ReposProgramacion\Examencito\obj\Debug\net6.0\refint\Examencito.dll
+C:\Users\HP\source\repos\ReposProgramacion\Examencito\obj\Debug\net6.0\Examencito.pdb
+C:\Users\HP\source\repos\ReposProgramacion\Examencito\obj\Debug\net6.0\ref\Examencito.dll
